@@ -29,10 +29,9 @@ public class Rectangle {
 	@Override
 	public boolean equals(Object obj) {
 		Rectangle r = (Rectangle)obj;
-		if(this.width * this.height == r.width * r.height) {
+		if(this.width * this.height == r.width * r.height) 
 			return true;
-		}else
+		else
 			return false;
-		
 	}
 }
